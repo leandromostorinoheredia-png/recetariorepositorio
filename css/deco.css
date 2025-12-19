@@ -1,0 +1,259 @@
+        /* Estilos generales */
+        body {
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Fondo desenfocado */
+        .fondo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("background.jpg");
+            background-size: cover;
+            filter: blur(5px);
+            z-index: -1;
+        }
+        
+        /* Título principal */
+        .titulo {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+            font-size: 40px;
+            margin: 20px 0;
+        }
+        
+        /* Contenedor principal */
+        .contenedor-principal {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* Vista de cuadrícula */
+        .cuadricula {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        /* Tarjetas de recetas */
+        .tarjeta {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        
+        .tarjeta:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        
+        .tarjeta img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        
+        .tarjeta-contenido {
+            padding: 15px;
+        }
+        
+        .tarjeta-titulo {
+            font-size: 22px;
+            margin: 0 0 10px 0;
+            text-align: center;
+            color: #333;
+        }
+        
+        .tarjeta-info {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .tarjeta-descripcion {
+            color: #777;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        
+        /* Vista de detalle */
+        .detalle {
+            display: none;
+        }
+        
+        .contenedor-detalle {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        
+        .detalle-titulo {
+            text-align: center;
+            font-size: 32px;
+            margin: 0 0 20px 0;
+            color: #222;
+        }
+        
+        /* Imagen en detalle */
+        .detalle-imagen {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .seccion {
+            background-color: rgb(218, 218, 218);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .subtitulo {
+            font-size: 24px;
+            color: #444;
+            margin: 0 0 15px 0;
+            text-align: center;
+        }
+        
+        .info-receta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .info-item {
+            background-color: #b1b1b1;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+        
+        .lista-ingredientes {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .lista-ingredientes li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            color: #333;
+        }
+        
+        .lista-procedimiento {
+            padding-left: 20px;
+        }
+        
+        .lista-procedimiento li {
+            margin-bottom: 10px;
+            color: #333;
+            line-height: 1.5;
+        }
+        
+        /* Botones */
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .boton {
+            background-color: #0078ff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .boton:hover {
+            background-color: #005fcc;
+        }
+        
+        .boton-volver {
+            background-color: #28a745;
+        }
+        
+        .boton-volver:hover {
+            background-color: #218838;
+        }
+        
+        /* Animaciones simples */
+        .mostrar {
+            animation: aparecer 0.5s;
+        }
+        
+        @keyframes aparecer {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .cuadricula {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 15px;
+                padding: 10px;
+            }
+            
+            .botones {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .boton {
+                width: 90%;
+                max-width: 300px;
+            }
+            
+            .detalle-imagen {
+                max-height: 250px;
+            }
+            
+            .detalle-titulo {
+                font-size: 28px;
+            }
+            
+            .subtitulo {
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .cuadricula {
+                grid-template-columns: 1fr;
+            }
+            
+            .detalle-imagen {
+                max-height: 200px;
+            }
+            
+            .detalle-titulo {
+                font-size: 24px;
+            }
+        }

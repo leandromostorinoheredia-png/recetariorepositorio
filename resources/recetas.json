@@ -1,0 +1,294 @@
+{
+  "Juane": {
+    "Info": {
+      "duracion": "45min",
+      "porciones": "4 porciones",
+      "dificultad": "Media",
+      "categoria": "Aperitivo",
+      "calorias": "350 por porción",
+      "descripcion": "El juane es un plato típico de la Amazonía peruana. Consiste en arroz sazonado, relleno con carne de gallina o pollo, huevo duro y aceitunas, todo envuelto en hojas de bijao y cocido."
+    },
+    "Ingredientes": [
+      "arroz",
+      "gallina o pollo",
+      "huevos",
+      "aceitunas",
+      "cebolla",
+      "ajo",
+      "palillo (cúrcuma)",
+      "sal y pimienta",
+      "aceite",
+      "hojas de bijao"
+    ],
+    "Procedimiento": [
+      "Cocinar el arroz con ajo, cebolla y palillo.",
+      "Hervir el pollo o gallina con sal y reservar.",
+      "Cocer los huevos y partirlos por la mitad.",
+      "Colocar arroz sobre la hoja de bijao.",
+      "Agregar pollo, huevo y aceituna.",
+      "Cubrir con más arroz y envolver bien.",
+      "Amarrar y hervir durante 45 minutos."
+    ],
+    "Imagen": "https://blog.redbus.pe/wp-content/uploads/2018/05/Juane.jpeg",
+    "color": "#F0E6D2"
+  },
+
+  "Carapulcra": {
+    "Info": {
+      "duracion": "60min",
+      "porciones": "4 porciones",
+      "dificultad": "Media",
+      "categoria": "Plato Principal",
+      "calorias": "400 por porción",
+      "descripcion": "Guiso tradicional peruano preparado con papa seca y carne."
+    },
+    "Ingredientes": [
+      "papa seca",
+      "carne de cerdo",
+      "cebolla",
+      "ajo",
+      "ají panca",
+      "maní molido",
+      "caldo",
+      "sal y pimienta"
+    ],
+    "Procedimiento": [
+      "Remojar la papa seca hasta que esté suave.",
+      "Dorar la carne de cerdo y reservar.",
+      "Sofreír cebolla, ajo y ají panca.",
+      "Agregar la papa seca y el caldo.",
+      "Incorporar la carne y el maní molido.",
+      "Cocinar a fuego lento hasta espesar."
+    ],
+    "Imagen": "https://tse4.mm.bing.net/th/id/OIP.U2taS3LQKaCu5_IzHYVRMgHaE6?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  "Pachamanca": {
+    "Info": {
+      "duracion": "120min",
+      "porciones": "6 porciones",
+      "dificultad": "Alta",
+      "categoria": "Plato Principal",
+      "calorias": "500 por porción",
+      "descripcion": "Plato ancestral andino cocido bajo tierra."
+    },
+    "Ingredientes": [
+      "pollo",
+      "cerdo",
+      "cordero",
+      "papas",
+      "habas",
+      "choclo",
+      "hierbas andinas",
+      "sal"
+    ],
+    "Procedimiento": [
+      "Marinar las carnes con hierbas y sal.",
+      "Calentar piedras hasta que estén al rojo.",
+      "Colocar las carnes y verduras sobre las piedras.",
+      "Cubrir con hojas y tierra.",
+      "Cocinar durante 2 horas.",
+      "Destapar y servir caliente."
+    ],
+    "Imagen": "https://tse4.mm.bing.net/th/id/OIP.ite5Q5UMmg2A2mFomZka5AHaE8?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  "Chaufa Peruano": {
+    "Info": {
+      "duracion": "30min",
+      "porciones": "4 porciones",
+      "dificultad": "Fácil",
+      "categoria": "Plato Principal",
+      "calorias": "380 por porción",
+      "descripcion": "Arroz frito de influencia chino-peruana."
+    },
+    "Ingredientes": [
+      "arroz cocido",
+      "pollo",
+      "huevo",
+      "cebolla china",
+      "sillao",
+      "ajo",
+      "aceite"
+    ],
+    "Procedimiento": [
+      "Saltear el pollo con ajo.",
+      "Agregar el huevo y revolver.",
+      "Incorporar el arroz cocido.",
+      "Añadir sillao y cebolla china.",
+      "Saltear a fuego alto y servir."
+    ],
+    "Imagen": "https://gcdn.emol.cl/cocina/files/2014/03/arroz-chaufa-1.jpg"
+  },
+
+  "Sopa a la Minuta": {
+    "Info": {
+      "duracion": "25min",
+      "porciones": "4 porciones",
+      "dificultad": "Fácil",
+      "categoria": "Entrada",
+      "calorias": "300 por porción",
+      "descripcion": "Sopa criolla con carne y fideos."
+    },
+    "Ingredientes": [
+      "carne molida",
+      "cebolla",
+      "ajo",
+      "tomate",
+      "fideos",
+      "huevo",
+      "caldo",
+      "sal y pimienta"
+    ],
+    "Procedimiento": [
+      "Sofreír cebolla, ajo y tomate.",
+      "Agregar la carne molida y cocinar.",
+      "Incorporar el caldo y fideos.",
+      "Cocinar hasta que los fideos estén listos.",
+      "Añadir el huevo batido y servir."
+    ],
+    "Imagen": "https://th.bing.com/th/id/R.b7b1a70294aff2ca8e944e14d5f84d9f?rik=nuBnoyk%2fX2iHkw&pid=ImgRaw&r=0"
+  },
+
+  "Mazamorra Morada": {
+    "Info": {
+      "duracion": "40min",
+      "porciones": "6 porciones",
+      "dificultad": "Fácil",
+      "categoria": "Postre",
+      "calorias": "250 por porción",
+      "descripcion": "Postre peruano tradicional a base de maíz morado."
+    },
+    "Ingredientes": [
+      "maíz morado",
+      "piña",
+      "canela",
+      "clavo de olor",
+      "azúcar",
+      "harina de chuño"
+    ],
+    "Procedimiento": [
+      "Hervir el maíz morado con piña y especias.",
+      "Colar el líquido.",
+      "Agregar azúcar al gusto.",
+      "Disolver el chuño y añadirlo.",
+      "Cocinar hasta espesar y dejar enfriar."
+    ],
+    "Imagen": "https://tse1.mm.bing.net/th/id/OIP.vUktSX_4KDCrDlLW_gzCxAHaEK?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+   "Seco de Cabrito": {
+    "Info": {
+      "duracion": "90min",
+      "porciones": "5 porciones",
+      "dificultad": "Media",
+      "categoria": "Plato Principal",
+      "calorias": "460 por porción",
+      "descripcion": "Guiso norteño preparado con carne de cabrito y culantro."
+    },
+    "Ingredientes": [
+      "carne de cabrito",
+      "culantro licuado",
+      "cebolla",
+      "ajo",
+      "ají amarillo",
+      "chicha de jora",
+      "sal y pimienta",
+      "aceite"
+    ],
+    "Procedimiento": [
+      "Sazonar la carne con sal y pimienta.",
+      "Dorar el cabrito y reservar.",
+      "Sofreír cebolla, ajo y ají amarillo.",
+      "Agregar el culantro licuado y cocinar.",
+      "Incorporar la carne y la chicha de jora.",
+      "Cocinar a fuego lento hasta que esté tierno."
+    ],
+    "Imagen": "https://tse1.mm.bing.net/th/id/OIP.NdLQ85MvNw2DaWNEzSM8CgHaEE?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  "Rocoto Relleno": {
+    "Info": {
+      "duracion": "70min",
+      "porciones": "4 porciones",
+      "dificultad": "Media",
+      "categoria": "Plato Principal",
+      "calorias": "420 por porción",
+      "descripcion": "Plato arequipeño de rocotos rellenos con carne."
+    },
+    "Ingredientes": [
+      "rocotos",
+      "carne molida",
+      "cebolla",
+      "ajo",
+      "maní molido",
+      "huevo duro",
+      "queso fresco",
+      "leche",
+      "sal y pimienta"
+    ],
+    "Procedimiento": [
+      "Hervir los rocotos varias veces para quitar el picante.",
+      "Sofreír cebolla, ajo y carne molida.",
+      "Agregar maní, sal y pimienta.",
+      "Rellenar los rocotos con la mezcla.",
+      "Colocar queso encima.",
+      "Hornear con leche hasta gratinar."
+    ],
+    "Imagen": "https://i0.wp.com/micomidaperuana.com/wp-content/uploads/2021/12/rocoto-relleno.jpg?w=700&ssl=1"
+  },
+
+  "Cau Cau": {
+    "Info": {
+      "duracion": "50min",
+      "porciones": "4 porciones",
+      "dificultad": "Fácil",
+      "categoria": "Plato Principal",
+      "calorias": "360 por porción",
+      "descripcion": "Guiso limeño hecho con mondongo y papa."
+    },
+    "Ingredientes": [
+      "mondongo",
+      "papa",
+      "cebolla",
+      "ajo",
+      "ají amarillo",
+      "hierbabuena",
+      "sal y pimienta"
+    ],
+    "Procedimiento": [
+      "Cocinar el mondongo hasta que esté tierno.",
+      "Sofreír cebolla, ajo y ají amarillo.",
+      "Agregar la papa en cubos.",
+      "Incorporar el mondongo y caldo.",
+      "Cocinar hasta que la papa esté suave.",
+      "Añadir hierbabuena y servir."
+    ],
+    "Imagen": "https://th.bing.com/th/id/OIP.VNwFSmo-wfeSe_CgCpfd4wHaEJ?w=325&h=182&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1"
+  },
+
+  "Chancaca con Queso": {
+    "Info": {
+      "duracion": "20min",
+      "porciones": "4 porciones",
+      "dificultad": "Fácil",
+      "categoria": "Postre",
+      "calorias": "300 por porción",
+      "descripcion": "Postre tradicional andino con panela derretida."
+    },
+    "Ingredientes": [
+      "chancaca",
+      "agua",
+      "canela",
+      "clavo de olor",
+      "queso fresco"
+    ],
+    "Procedimiento": [
+      "Hervir la chancaca con agua y especias.",
+      "Cocinar hasta obtener un jarabe.",
+      "Cortar el queso en porciones.",
+      "Servir el queso bañado con chancaca caliente."
+    ],
+    "Imagen": ""
+  }
+}
+
