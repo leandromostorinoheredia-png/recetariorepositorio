@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Login</title>
+    <link rel="stylesheet" href="css/deco_login.css">
+</head>
+<body>
+
+<div class="login-container">
+    <div class="food-icons">🍕 🍔 🌮 🍩</div>
+    <h1>Food Login</h1>
+
+    <form id="loginForm">
+        <input type="text" id="usuario" placeholder="👤 Usuario">
+        <input type="password" id="password" placeholder="🔒 Contraseña">
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+
+    <div id="mensajeError" class="mensaje error">
+        ❌ Usuario o contraseña incorrectos
+    </div>
+
+    <div id="mensajeExito" class="mensaje success">
+        ✅ ¡Bienvenido! Inicio de sesión exitoso
+    </div>
+</div>
+
+<script>
+    // Credenciales reales (ejemplo)
+    const USUARIO_REAL = "admin";
+    const PASSWORD_REAL = "123456";
+
+    const form = document.getElementById("loginForm");
+    const usuario = document.getElementById("usuario");
+    const password = document.getElementById("password");
+
+    const mensajeError = document.getElementById("mensajeError");
+    const mensajeExito = document.getElementById("mensajeExito");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        mensajeError.style.display = "none";
+        mensajeExito.style.display = "none";
+
+        if (
+            usuario.value === USUARIO_REAL &&
+            password.value === PASSWORD_REAL
+        ) {
+            mensajeExito.style.display = "block";
+            form.reset();
+
+            // Ejemplo de redirección
+            window.location.href = "recetas.html";
+        } else {
+            mensajeError.style.display = "block";
+        }
+    });
+</script>
+
+</body>
+</html>

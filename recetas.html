@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Peruanas</title>
+    <link rel="stylesheet" href="css/deco.css">
+</head>
+<body>
+    <div class="fondo"></div>
+    
+    <div class="contenedor-principal">
+        <h1 class="titulo">RECETAS PERUANAS</h1>
+        
+        <!-- Vista de cuadrícula -->
+        <div id="vista-cuadricula" class="cuadricula">
+            <!-- Las tarjetas se crean con JavaScript -->
+        </div>
+        
+        <!-- Vista de detalle -->
+        <div id="vista-detalle" class="detalle">
+            <div class="contenedor-detalle" id="contenedor-detalle">
+                <h2 id="titulo-receta" class="detalle-titulo">Título de la receta</h2>
+                
+                <!-- Imagen de la receta -->
+                <img id="imagen-receta" class="detalle-imagen" src="" alt="Imagen de la receta">
+                
+                <div class="seccion">
+                    <div class="info-receta">
+                        <div id="info-duracion" class="info-item"></div>
+                        <div id="info-porciones" class="info-item"></div>
+                    </div>
+                </div>
+                
+                <div class="seccion">
+                    <h3 class="subtitulo">Ingredientes</h3>
+                    <ul id="lista-ingredientes" class="lista-ingredientes"></ul>
+                </div>
+                
+                <div class="seccion">
+                    <h3 class="subtitulo">Procedimiento</h3>
+                    <ol id="lista-procedimiento" class="lista-procedimiento"></ol>
+                </div>
+            </div>
+            
+            <div class="botones">
+                <button onclick="recetaAnterior()" class="boton">← Anterior</button>
+                <button onclick="volverACuadricula()" class="boton boton-volver">Volver a Recetas</button>
+                <button onclick="recetaSiguiente()" class="boton">Siguiente →</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript/codeRecipes.js"></script>
+</body>
+</html>
